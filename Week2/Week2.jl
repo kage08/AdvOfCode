@@ -1,8 +1,8 @@
-function transform!(arr::Array{Int64,1}, noun::Int64=12, verb::Int64=2)
+function transform!(arr::Array{Int64,1}, noun::Int64 = 12, verb::Int64 = 2)
     start::Int16 = 1
     arr[2] = noun
     arr[3] = verb
-    while arr[start] != 99
+    while arr[start] ≠ 99
         if arr[start] == 1
             arr[arr[start+3]+1] = arr[arr[start+1]+1] + arr[arr[start+2]+1]
         elseif arr[start] == 2
@@ -24,11 +24,11 @@ transform!(inp)
 println(inp[1])
 
 inp = getData("input")
-for n = 1:100
-    for v = 1:100
+for n in 1:100
+    for v in 1:100
         i = deepcopy(inp)
         transform!(i, n, v)
-        if i[1]==19690720
+        if i[1] == 19690720
             println(100 * n + v)
         end
     end
