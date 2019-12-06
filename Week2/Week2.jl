@@ -29,8 +29,8 @@ transform!(inp)
 println(inp[1])
 
 inp = getData("input")
-for n in 1:100
-    for v in 1:100
+for n ∈ 1:100
+    for v ∈ 1:100
         i = deepcopy(inp)
         transform!(i, n, v)
         if i[1] == 19690720

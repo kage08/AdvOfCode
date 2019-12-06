@@ -65,7 +65,7 @@ end
 
 function findnum(l::Int64, r::Int64)::Int32
     count::Int32 = 0
-    for x in l:r
+    for x ∈ l:r
         if checkNum(x)
             count += 1
         end
@@ -75,7 +75,7 @@ end
 
 function findnum2(l::Int64, r::Int64)::Int32
     count::Int32 = 0
-    for x in l:r
+    for x ∈ l:r
         if checkNum2(x)
             count += 1
         end

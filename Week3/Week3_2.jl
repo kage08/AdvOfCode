@@ -6,8 +6,8 @@
 function getcoords(arr::Array{Tuple{Char,Int64}})::Array{Tuple{Int64,Int64}}
     coords::Array{Tuple{Int64,Int64}} = Array([])
     x, y = 0, 0
-    for (dir, steps) in arr
-        for _ in 1:steps
+    for (dir, steps) ∈ arr
+        for _ ∈ 1:steps
             if dir == 'R'
                 x += 1
             elseif dir == 'L'
