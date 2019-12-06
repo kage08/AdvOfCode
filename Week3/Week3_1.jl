@@ -1,3 +1,8 @@
+# Copyright (c) 2019 Harshavardhan P K
+# 
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
 function getcoords(arr::Array{Tuple{Char,Int64}})::Set{Tuple{Int64,Int64}}
     coords::Set{Tuple{Int64,Int64}} = Set([])
     x, y = 0, 0

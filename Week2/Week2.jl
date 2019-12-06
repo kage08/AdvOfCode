@@ -1,3 +1,8 @@
+# Copyright (c) 2019 Harshavardhan P K
+# 
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
 function transform!(arr::Array{Int64,1}, noun::Int64 = 12, verb::Int64 = 2)
     start::Int16 = 1
     arr[2] = noun

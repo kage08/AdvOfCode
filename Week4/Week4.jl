@@ -1,3 +1,8 @@
+# Copyright (c) 2019 Harshavardhan P K
+# 
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
 function checkNum(x::Int64)::Bool
     x1 = x
     isadj = false
