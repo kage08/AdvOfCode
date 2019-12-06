@@ -7,4 +7,6 @@
 
 # Advent of code in Julia
 Author: [Harshavardhan P K](www.github.com/kage08)
-**Purpose**: To learn Julia syntax
+
+
+**Purpose**: To learn Julia syntax.
